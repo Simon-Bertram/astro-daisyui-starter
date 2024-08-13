@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main class="prose lg:prose-xl flex justify-center items-center">
+  <main class="flex-1 prose lg:prose-xl flex justify-center py-12">
     <div class="container">
       <h1>Main Content</h1>
       <article>
@@ -20,6 +20,13 @@ import Layout from "../layouts/Layout.astro";
         </p>
         <!-- ... -->
       </article>
+      <button class="btn">Button</button>
+      <button class="btn btn-neutral">Neutral</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-accent">Accent</button>
+      <button class="btn btn-ghost">Ghost</button>
+      <button class="btn btn-link">Link</button>
     </div>
   </main>
 </Layout>
